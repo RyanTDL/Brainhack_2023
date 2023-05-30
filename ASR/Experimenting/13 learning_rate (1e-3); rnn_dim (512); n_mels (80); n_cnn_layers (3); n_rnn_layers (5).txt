@@ -1,0 +1,47 @@
+13: learning_rate (1e-3); rnn_dim (512); n_mels (80); n_cnn_layers (3); n_rnn_layers (5)
+
+[output bad, warning disappears]
+
+Num Model Parameters 23311356
+Train Epoch: 1 [0/3000 (0%)]	Loss: 7.009087
+Train Epoch: 1 [800/3000 (27%)]	Loss: 2.908655
+Train Epoch: 1 [1600/3000 (53%)]	Loss: 2.947032
+Train Epoch: 1 [2400/3000 (80%)]	Loss: 2.881433
+
+evaluating...
+Dev set: Average loss: 2.9120, Average CER: 1.000000 Average WER: 1.0000
+
+Train Epoch: 2 [0/3000 (0%)]	Loss: 2.831075
+Train Epoch: 2 [800/3000 (27%)]	Loss: 2.936749
+Train Epoch: 2 [1600/3000 (53%)]	Loss: 2.910864
+Train Epoch: 2 [2400/3000 (80%)]	Loss: 2.827899
+
+evaluating...
+Dev set: Average loss: 2.8907, Average CER: 1.000000 Average WER: 1.0000
+
+Train Epoch: 3 [0/3000 (0%)]	Loss: 2.894480
+Train Epoch: 3 [800/3000 (27%)]	Loss: 2.905679
+Train Epoch: 3 [1600/3000 (53%)]	Loss: 2.925115
+Train Epoch: 3 [2400/3000 (80%)]	Loss: 2.973565
+
+evaluating...
+Dev set: Average loss: 2.8907, Average CER: 1.000000 Average WER: 1.0000
+
+Train Epoch: 4 [0/3000 (0%)]	Loss: 2.879536
+Train Epoch: 4 [800/3000 (27%)]	Loss: 2.895858
+Train Epoch: 4 [1600/3000 (53%)]	Loss: 2.854998
+Train Epoch: 4 [2400/3000 (80%)]	Loss: 2.892219
+
+evaluating...
+Dev set: Average loss: 2.8422, Average CER: 1.000000 Average WER: 1.0000
+
+Train Epoch: 5 [0/3000 (0%)]	Loss: 2.883018
+Train Epoch: 5 [800/3000 (27%)]	Loss: 2.809291
+Train Epoch: 5 [1600/3000 (53%)]	Loss: 2.818708
+Train Epoch: 5 [2400/3000 (80%)]	Loss: 2.796984
+
+evaluating...
+Dev set: Average loss: 2.8934, Average CER: 1.000000 Average WER: 1.0000
+
+Train Epoch: 6 [0/3000 (0%)]	Loss: 2.877231
+Train Epoch: 6 [800/3000 (27%)]	Loss: 2.877745

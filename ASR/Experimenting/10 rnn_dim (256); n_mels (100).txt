@@ -1,0 +1,186 @@
+10: rnn_dim (256); n_mels (100) 
+
+[output bad, warning still appear]
+
+Num Model Parameters 6129780
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 1 [0/3000 (0%)]	Loss: 8.339611
+Train Epoch: 1 [800/3000 (27%)]	Loss: 2.916236
+Train Epoch: 1 [1600/3000 (53%)]	Loss: 2.901707
+Train Epoch: 1 [2400/3000 (80%)]	Loss: 2.899879
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.8237, Average CER: 0.979511 Average WER: 1.0000
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 2 [0/3000 (0%)]	Loss: 2.812533
+Train Epoch: 2 [800/3000 (27%)]	Loss: 2.789378
+Train Epoch: 2 [1600/3000 (53%)]	Loss: 2.716907
+Train Epoch: 2 [2400/3000 (80%)]	Loss: 2.734004
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.7296, Average CER: 0.913720 Average WER: 0.9428
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 3 [0/3000 (0%)]	Loss: 2.750608
+Train Epoch: 3 [800/3000 (27%)]	Loss: 2.771034
+Train Epoch: 3 [1600/3000 (53%)]	Loss: 2.797711
+Train Epoch: 3 [2400/3000 (80%)]	Loss: 2.734672
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.6920, Average CER: 0.896637 Average WER: 0.9428
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 4 [0/3000 (0%)]	Loss: 2.690844
+Train Epoch: 4 [800/3000 (27%)]	Loss: 2.705538
+Train Epoch: 4 [1600/3000 (53%)]	Loss: 2.826323
+Train Epoch: 4 [2400/3000 (80%)]	Loss: 2.715434
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.6629, Average CER: 0.891543 Average WER: 0.9436
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 5 [0/3000 (0%)]	Loss: 2.675159
+Train Epoch: 5 [800/3000 (27%)]	Loss: 2.665632
+Train Epoch: 5 [1600/3000 (53%)]	Loss: 2.608581
+Train Epoch: 5 [2400/3000 (80%)]	Loss: 2.740061
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.5138, Average CER: 0.817106 Average WER: 0.9585
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 6 [0/3000 (0%)]	Loss: 2.579792
+Train Epoch: 6 [800/3000 (27%)]	Loss: 2.514862
+Train Epoch: 6 [1600/3000 (53%)]	Loss: 2.477640
+Train Epoch: 6 [2400/3000 (80%)]	Loss: 2.529856
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.4598, Average CER: 0.694959 Average WER: 1.1754
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 7 [0/3000 (0%)]	Loss: 2.518104
+Train Epoch: 7 [800/3000 (27%)]	Loss: 2.483095
+Train Epoch: 7 [1600/3000 (53%)]	Loss: 2.543848
+Train Epoch: 7 [2400/3000 (80%)]	Loss: 2.502468
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.4106, Average CER: 0.687030 Average WER: 1.1097
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 8 [0/3000 (0%)]	Loss: 2.368619
+Train Epoch: 8 [800/3000 (27%)]	Loss: 2.479393
+Train Epoch: 8 [1600/3000 (53%)]	Loss: 2.443423
+Train Epoch: 8 [2400/3000 (80%)]	Loss: 2.469482
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.3998, Average CER: 0.679067 Average WER: 1.2176
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 9 [0/3000 (0%)]	Loss: 2.427808
+Train Epoch: 9 [800/3000 (27%)]	Loss: 2.386533
+Train Epoch: 9 [1600/3000 (53%)]	Loss: 2.373914
+Train Epoch: 9 [2400/3000 (80%)]	Loss: 2.320412
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.3763, Average CER: 0.679406 Average WER: 1.3185
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 10 [0/3000 (0%)]	Loss: 2.467004
+Train Epoch: 10 [800/3000 (27%)]	Loss: 2.538875
+Train Epoch: 10 [1600/3000 (53%)]	Loss: 2.365955
+Train Epoch: 10 [2400/3000 (80%)]	Loss: 2.418115
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.3534, Average CER: 0.685936 Average WER: 1.1031
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 11 [0/3000 (0%)]	Loss: 2.373956
+Train Epoch: 11 [800/3000 (27%)]	Loss: 2.413166
+Train Epoch: 11 [1600/3000 (53%)]	Loss: 2.440859
+Train Epoch: 11 [2400/3000 (80%)]	Loss: 2.325778
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.3631, Average CER: 0.666506 Average WER: 1.1708
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 12 [0/3000 (0%)]	Loss: 2.351920
+Train Epoch: 12 [800/3000 (27%)]	Loss: 2.382928
+Train Epoch: 12 [1600/3000 (53%)]	Loss: 2.298120
+Train Epoch: 12 [2400/3000 (80%)]	Loss: 2.310937
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.3102, Average CER: 0.664153 Average WER: 1.1226
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 13 [0/3000 (0%)]	Loss: 2.376209
+Train Epoch: 13 [800/3000 (27%)]	Loss: 2.351042
+Train Epoch: 13 [1600/3000 (53%)]	Loss: 2.346646
+Train Epoch: 13 [2400/3000 (80%)]	Loss: 2.360374
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.2678, Average CER: 0.670226 Average WER: 1.0697
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 14 [0/3000 (0%)]	Loss: 2.508090
+Train Epoch: 14 [800/3000 (27%)]	Loss: 2.231530
+Train Epoch: 14 [1600/3000 (53%)]	Loss: 2.462368
+Train Epoch: 14 [2400/3000 (80%)]	Loss: 2.278737
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.2893, Average CER: 0.663395 Average WER: 1.0884
+
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Train Epoch: 15 [0/3000 (0%)]	Loss: 2.350663
+Train Epoch: 15 [800/3000 (27%)]	Loss: 2.390858
+Train Epoch: 15 [1600/3000 (53%)]	Loss: 2.279754
+Train Epoch: 15 [2400/3000 (80%)]	Loss: 2.573884
+
+evaluating...
+/usr/local/lib/python3.10/dist-packages/torchaudio/functional/functional.py:539: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (100) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+Dev set: Average loss: 2.3010, Average CER: 0.650843 Average WER: 1.0788
+
+Time taken for training: 0.1449762777487437 hrs

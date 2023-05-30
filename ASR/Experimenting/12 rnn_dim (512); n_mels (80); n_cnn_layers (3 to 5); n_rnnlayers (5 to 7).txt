@@ -1,0 +1,126 @@
+12: rnn_dim (512); n_mels (80); n_cnn_layers (3 to 5); n_rnn_layers (5 to 7)
+
+[output bad, warning disappears]
+
+Num Model Parameters 32802236
+Train Epoch: 1 [0/3000 (0%)]	Loss: 8.315472
+Train Epoch: 1 [800/3000 (27%)]	Loss: 2.809410
+Train Epoch: 1 [1600/3000 (53%)]	Loss: 2.892051
+Train Epoch: 1 [2400/3000 (80%)]	Loss: 2.815786
+
+evaluating...
+Dev set: Average loss: 2.7844, Average CER: 0.941190 Average WER: 0.9428
+
+Train Epoch: 2 [0/3000 (0%)]	Loss: 2.802213
+Train Epoch: 2 [800/3000 (27%)]	Loss: 2.781735
+Train Epoch: 2 [1600/3000 (53%)]	Loss: 2.716662
+Train Epoch: 2 [2400/3000 (80%)]	Loss: 2.704358
+
+evaluating...
+Dev set: Average loss: 2.7371, Average CER: 0.896224 Average WER: 0.9387
+
+Train Epoch: 3 [0/3000 (0%)]	Loss: 2.662037
+Train Epoch: 3 [800/3000 (27%)]	Loss: 2.706728
+Train Epoch: 3 [1600/3000 (53%)]	Loss: 2.696111
+Train Epoch: 3 [2400/3000 (80%)]	Loss: 2.693732
+
+evaluating...
+Dev set: Average loss: 2.7226, Average CER: 0.903702 Average WER: 0.9306
+
+Train Epoch: 4 [0/3000 (0%)]	Loss: 2.695846
+Train Epoch: 4 [800/3000 (27%)]	Loss: 2.758736
+Train Epoch: 4 [1600/3000 (53%)]	Loss: 2.665949
+Train Epoch: 4 [2400/3000 (80%)]	Loss: 2.646190
+
+evaluating...
+Dev set: Average loss: 2.6719, Average CER: 0.892100 Average WER: 0.9428
+
+Train Epoch: 5 [0/3000 (0%)]	Loss: 2.655005
+Train Epoch: 5 [800/3000 (27%)]	Loss: 2.635821
+Train Epoch: 5 [1600/3000 (53%)]	Loss: 2.621103
+Train Epoch: 5 [2400/3000 (80%)]	Loss: 2.709929
+
+evaluating...
+Dev set: Average loss: 2.6584, Average CER: 0.884383 Average WER: 0.9705
+
+Train Epoch: 6 [0/3000 (0%)]	Loss: 2.657976
+Train Epoch: 6 [800/3000 (27%)]	Loss: 2.617045
+Train Epoch: 6 [1600/3000 (53%)]	Loss: 2.771324
+Train Epoch: 6 [2400/3000 (80%)]	Loss: 2.630247
+
+evaluating...
+Dev set: Average loss: 2.6651, Average CER: 0.900088 Average WER: 0.9344
+
+Train Epoch: 7 [0/3000 (0%)]	Loss: 2.690104
+Train Epoch: 7 [800/3000 (27%)]	Loss: 2.730577
+Train Epoch: 7 [1600/3000 (53%)]	Loss: 2.718184
+Train Epoch: 7 [2400/3000 (80%)]	Loss: 2.657658
+
+evaluating...
+Dev set: Average loss: 2.6482, Average CER: 0.850804 Average WER: 0.9562
+
+Train Epoch: 8 [0/3000 (0%)]	Loss: 2.755705
+Train Epoch: 8 [800/3000 (27%)]	Loss: 2.591042
+Train Epoch: 8 [1600/3000 (53%)]	Loss: 2.646159
+Train Epoch: 8 [2400/3000 (80%)]	Loss: 2.645092
+
+evaluating...
+Dev set: Average loss: 2.6489, Average CER: 0.858923 Average WER: 0.9582
+
+Train Epoch: 9 [0/3000 (0%)]	Loss: 2.620812
+Train Epoch: 9 [800/3000 (27%)]	Loss: 2.677827
+Train Epoch: 9 [1600/3000 (53%)]	Loss: 2.598610
+Train Epoch: 9 [2400/3000 (80%)]	Loss: 2.603710
+
+evaluating...
+Dev set: Average loss: 2.6152, Average CER: 0.859911 Average WER: 0.9615
+
+Train Epoch: 10 [0/3000 (0%)]	Loss: 2.683342
+Train Epoch: 10 [800/3000 (27%)]	Loss: 2.560810
+Train Epoch: 10 [1600/3000 (53%)]	Loss: 2.548743
+Train Epoch: 10 [2400/3000 (80%)]	Loss: 2.610351
+
+evaluating...
+Dev set: Average loss: 2.6076, Average CER: 0.836184 Average WER: 0.9393
+
+Train Epoch: 11 [0/3000 (0%)]	Loss: 2.650578
+Train Epoch: 11 [800/3000 (27%)]	Loss: 2.651295
+Train Epoch: 11 [1600/3000 (53%)]	Loss: 2.625241
+Train Epoch: 11 [2400/3000 (80%)]	Loss: 2.589201
+
+evaluating...
+Dev set: Average loss: 2.5864, Average CER: 0.830473 Average WER: 0.9445
+
+Train Epoch: 12 [0/3000 (0%)]	Loss: 2.673860
+Train Epoch: 12 [800/3000 (27%)]	Loss: 2.574888
+Train Epoch: 12 [1600/3000 (53%)]	Loss: 2.462206
+Train Epoch: 12 [2400/3000 (80%)]	Loss: 2.542188
+
+evaluating...
+Dev set: Average loss: 2.5650, Average CER: 0.718361 Average WER: 1.0014
+
+Train Epoch: 13 [0/3000 (0%)]	Loss: 2.563910
+Train Epoch: 13 [800/3000 (27%)]	Loss: 2.636567
+Train Epoch: 13 [1600/3000 (53%)]	Loss: 2.554533
+Train Epoch: 13 [2400/3000 (80%)]	Loss: 2.431458
+
+evaluating...
+Dev set: Average loss: 2.5098, Average CER: 0.720237 Average WER: 1.0038
+
+Train Epoch: 14 [0/3000 (0%)]	Loss: 2.690350
+Train Epoch: 14 [800/3000 (27%)]	Loss: 2.518362
+Train Epoch: 14 [1600/3000 (53%)]	Loss: 2.723812
+Train Epoch: 14 [2400/3000 (80%)]	Loss: 2.731120
+
+evaluating...
+Dev set: Average loss: 2.7378, Average CER: 0.941190 Average WER: 0.9428
+
+Train Epoch: 15 [0/3000 (0%)]	Loss: 2.661161
+Train Epoch: 15 [800/3000 (27%)]	Loss: 2.709762
+Train Epoch: 15 [1600/3000 (53%)]	Loss: 2.744048
+Train Epoch: 15 [2400/3000 (80%)]	Loss: 2.787460
+
+evaluating...
+Dev set: Average loss: 2.6938, Average CER: 0.891649 Average WER: 0.9428
+
+Time taken for training: 0.30194712294472587 hrs
